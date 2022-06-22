@@ -1,0 +1,140 @@
+.App {
+  margin: 30px;
+  position: relative;
+}
+.App h1 {
+  text-align: center;
+}
+.app_container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: rgb(194, 240, 240);
+  border-radius: 12px;
+  flex-wrap: wrap;
+
+}
+.cars{
+  padding: 10px 15px;
+  border-radius: 5px;
+  color:rgb(87, 102, 185);  
+  box-shadow: 3px 3px 5px 2px;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+}
+.cars div:nth-child(1) {
+  text-align: center;
+  font-size: 19px ;
+  color: rgb(29, 61, 238);
+  font-weight: 700;
+  box-shadow: #fff 0px 2px 2px 3px;
+  border-radius: 5px;
+}
+.cars:hover {
+  background-color: rgb(151, 148, 137);
+
+}
+.cars_names p {
+  font-size: 20px ;
+  color: rgb(167, 170, 170);
+  margin: 10px;
+  
+}
+.cars_names p:hover{
+  color: #fff;
+}
+.cars_names span {
+  font-size: 18px ;
+  font-weight: 500;
+  color: rgb(32, 32, 32);
+  margin: 10px;
+ 
+}
+.cars_names span:hover {
+  color: #fff;
+}
+
+.cars_btn{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.bx-trash{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(228, 1, 1);
+color: #fff;
+border-radius: 5px;
+}
+.bxs-pencil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  
+  background-color: rgb(6, 209, 6);
+  color: #fff;
+  border-radius: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.form {
+
+  background-color: rgb(227, 241, 241);
+  margin: 30px;
+  padding: 15px 50px 50px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.form:hover {
+    background-color: rgb(151, 148, 137);
+}
+.form  div p{
+  font-size: 20px;
+ text-align: center;
+ font-weight: 600;
+ box-shadow: #fff 0px 2px 2px 3px;
+ border-radius: 5px;
+}
+.app_btn {
+  background-color: rgb(85, 107, 233);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  left: 70%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bx-plus {
+  font-size: 20px;
+  color:#fff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.form_btn {
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: none;
+  background-color: rgb(235, 231, 219);
+  box-shadow: #fff 0px 2px 2px 3px;
+}
